@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Preview | Javascript</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Text Preview</h1>
+
+            <div class="content">
+                <input type="text" id="input" placeholder="Enter text" />
+
+                <select id="style-group">
+                    <option selected aria-selected="true">Choose Styles</option>
+                    <option value="uppercase">Uppercase</option>
+                    <option value="italic">Italic</option>
+                    <option value="bold">Bold</option>
+                </select>
+
+                <textarea id="output" readonly aria-readonly="true" placeholder="Text will appear here"></textarea>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
